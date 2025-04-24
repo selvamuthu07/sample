@@ -5,11 +5,7 @@ import openai
 import json
 from streamlit_echarts import st_echarts
 
-key1 = "sk-proj-QCJ8MQxdUiUV3xR1VteJOhFzEzIc8"
-key2 = "53ghYiquB8qC0vhqtjoiV4wBMDuNDxVzR2L-Qmpx_v4RzT3BlbkFJw07ud"
-key3 =  "OI2vDDz70SExXFYdWZeHNG8GIwqgXYAloxQZpLQUg6zLz9c-KZVIyDqUvcz1b7yD8wyQA"
-
-openai.api_key = key1 + key2 + key3
+openai.api_key = openai_api_key
  
 DB_NAME = ':memory:'
 TABLE_NAME = 'data'
