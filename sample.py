@@ -5,7 +5,7 @@ import openai
 import json
 from streamlit_echarts import st_echarts
 
-openai.api_key = openai_api_key
+openai.api_key = st.secrets["openai_api_key"]
  
 DB_NAME = ':memory:'
 TABLE_NAME = 'data'
